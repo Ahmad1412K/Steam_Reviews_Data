@@ -67,3 +67,14 @@ This can be accomplished by changing the num_per_page parameter in the API URL
 
 ## Database
 The notebook includes the code that adds the data collected to a MongoDB database as is, you just need to configure the database it self and then add the list of reviews to it
+
+# Data Profiling and Cleaning in the notebook
+## Data Profiling Stage
+I combined all the review text to one string then split the textual data into words.
+I printed the 10 most frequent words in all textual content then visualized it using a word cloud and bar chart.
+Then I printed the total number of stopwords and the 10 most frequent stopwords in the text.
+And I also checked and identified the spelling mistakes in the text.
+
+## Data Cleaning Stage
+I converted all words to small letter, and I removed stop words and punctuation and then printed the most frequent non-stop words and I printed the count of unique words.
+Then I replaced every misspelled word with the correction, and applied lemmatization and printed Top 10 most frequent words after lemmatization, correcting typos, and removing stopwords and punctuation 
